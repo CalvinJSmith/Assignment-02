@@ -1,6 +1,6 @@
 ---
 title: "BIOL390: Assignment 2"
-author: "YOUR NAME"
+author: "Calvin Smith"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
   html_document: default
@@ -32,7 +32,7 @@ boxplot(weight ~ group,                             # compare weight by group
         ylab = "Dried weight of plants",            # set y-axis title
 		xlab = "Group",                             # set x-axis title
 		ylim = c(0,10),                             # set scale of y-axis
-		col = c("ivory2","ivory3","ivory4"))        # set bar fill colors
+		col = c("red","green","blue"))        # set bar fill colors
 ```
 
 >>Edit the barplot above so that the y-axis range plotted is from 3 to 7 and change the colors of the bars to something that you find fun.
